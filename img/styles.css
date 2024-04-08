@@ -1,0 +1,63 @@
+menu{
+    align-content: center;
+    padding-right: 2rem;
+    display: block;
+    color: blanchedalmond;
+    overflow-x:hidden ;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color:white;
+    font-weight: bold;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .learn-more {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sections-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.section {
+    text-align: center;
+    width: 200px;
+}
+
+.section img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.paragraph-container {
+  display: inline-block;
+  width: calc(33% - 20px); 
+  margin-right: 20px; 
+  vertical-align: top;
+}
+
